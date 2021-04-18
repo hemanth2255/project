@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap');
+
+.navbar {
+    background-color: white;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: #22beee;
+    border: none;
+    filter: drop-shadow(-3px 2px 5px #888);
+    top: 0;
+    position: sticky;
+    }
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+    font-weight: 300;
+}
+
+.navbutton {
+    padding: 20px;
+    cursor: pointer;
+    text-decoration: none;
+    color: #029eee;
+    transition: 0.3s;
+    padding-right: 25px;
+    font-weight: 400;;
+}
+
+.navbutton-active {
+    padding: 20px;
+    text-decoration: none;
+    background-color: #029eee;
+    color: #fff;
+    transition: 0.3s;
+    padding-right: 25px;
+    font-weight: 400;;
+}
+
+.navbutton:hover {
+    background-color: #22beee;
+    color: white;
+    transition: 0.3s;
+}
+
+.imgbar {
+    width: 100%;
+    background-image: url('logowithouttext (2).png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 55px;
+    font-weight: 600;
+    padding-left: 10px;
+    align-items: center;
+    color: red;
+    font-size: 40px;
+    font-variant: small-caps;
+    letter-spacing: 0.1px;
+}
+.container {
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    background: #f0f8ff;
+
+}
+
+.content {
+    width: 70%;;
+}
+h1 {
+    font-size: 60px;
+
+
+}
+
+.navbuttonbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    background-image: url('skyblue.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 65px;
+    width: 250px;
+    box-sizing: border-box;
+    
+
+}
+
+.headingbox {
+    background-color:rgba(24,100,138, 0.8);
+    padding: 50px;
+    align-items: center;
+    justify-content: center;
+    font-variant: small-caps;
+    color: #eee;
+    font-weight: 600;
+    display: block;
+}
+
+.picbox {
+    background-image: url('https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fspecials-images.forbesimg.com%2Fimageserve%2F1026205392%2F0x0.jpg');
+    width: 100%;
+    background-size: cover;
+    background-position: 15px;
+}
+
+.headingbox *, .headopaqbox * {
+    text-align: center;
+    font-weight: 300;
+}
+
+.statbox {
+    
+    color: white;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+
+.statcont {
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.right {
+    border-right: 6px solid rgba(250,250,250,0.7);
+}
+
+.left {
+    border-left: 3px solid rgba(120,120,150,0.7);
+}
+
+.footer {
+    bottom: 0;
+    margin-top: 5px;
+    display: flex;
+    background: #029eee;
+    color: white;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.headopaqbox{
+    background-color:#029eee;
+    padding: 30px;
+    margin: 5px 0 5px 0;
+    align-items: center;
+    justify-content: center;
+    color: #eee;
+    font-weight: 600;
+    display: block;
+}
+
+.headopaqbox h1 {
+    font-size: 50px;
+}
+
+.prop1 {
+    background-image: url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXJpem9uYSUyMGhvdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0px -250px;
+}
+
+.prop2 {
+    background-image: url('https://singularityhub.com/wp-content/uploads/2020/08/L1010064_WebRes-3d-printed-house-mighty-buildings.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -0px -100px;
+    margin-top: 5px;
+}
+
+.prop3 {
+    background-image: url('https://i.pinimg.com/originals/9c/d4/f4/9cd4f441eb8a734c615ecd52ff84a10a.jpg');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -0px -150px;
+    margin-top: 5px;
+}
+
+
+
+.prop4 {
+    background-image: url('https://www.rethinktokyo.com/sites/default/files/styles/article-full/public/daiwa.jpg?itok=eah6twD-');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: -0px -120px;
+    margin-top: 5px;
+}
+
+.blackout {
+    width: 100%;
+    display: flex;
+    background-color: rgba(0,0,0,0.6);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.nobag {
+    background-color: transparent;
+}
+
+.whitetranspbar {
+   height: 5px;
+   width: 100%;
+   background-color: rgba(250,250,250,0.7); 
+}
+
+.blackout hr {
+    width: 60%;
+}
+
+.five {
+    width: 20%;
+    
+}
+
+.blackout .right {
+    border-right: 2px solid white;
+}
+
+.blackout h5 {
+    font-size: 50px;
+    padding: 10px;
+    margin: 5px;
+}
+
+.switchimageleft {
+    border: 0;
+    background-color: rgba(1, 1, 1, 0.01);
+    height: 100%;
+    width: 5%;
+    content: '\0bb';
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    float: left;
+    color: white;
+}
+
+.switchimageleft:hover {
+    cursor: pointer;
+    transition: 0.5s;
+    background-image: linear-gradient(to right, rgba(20, 20, 20, 0.5), rgba(20, 20, 20, 0.1))
+}
+
+.switchimageright {
+    border: 0;
+    background-color: rgba(1, 1, 1, 0.01);
+    height: 100%;
+    width: 5%;
+    content: '\0bb';
+    text-align: center;
+    vertical-align: middle;
+    line-height: 40px;
+    float: right;
+    color: white;
+}
+
+.switchimageright:hover {
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgba(20, 20, 20, 0.1), rgba(20, 20, 20, 0.5));
+    transition: 0.5s;
+}
+
+.alef {
+    background-image: url('https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YXJpem9uYSUyMGhvdXNlfGVufDB8fDB8fA%3D%3D&ixlib=rb-1.2.1&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    transition: 0.5s;
+    transition: background-image 0.5s ease-in-out;
+    -moz-transition: background-image 0.5s ease-in-out;
+}
