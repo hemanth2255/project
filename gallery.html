@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,27 +20,18 @@
     </div>
     <div class="container">
         <div class="content">
-            <div align="center" class="alef" id="sliderdiv" style="padding:0px; width: 100%; height: 400px; overflow-x: hide;" onmouseover="clearTimeout(taime);" onmouseout="resettime();">
-                <div style="background-color: rgba(0, 0, 0, 0.6); width: inherit; height: 100%; margin: 0px; display: inline-block;">
-                    <button class="switchimageleft" type="button" onclick="slide()" id="sliderdivl">&#129120;</button>
-                    <button class="switchimageright" type="button" onclick="slide()" id="sliderdiv2">&#129122;</button>
-                    <div style="opacity:1; padding: 20px;">
-                        <br>
-                        <span style="opacity:1">
-                 <br>
-                 <h1 style = "color: white; opacity: 10;">Example of an image div</h1>
-                 <br>
-                 <br>
-                 <br>   
-                 <br>
-                 <br>
-                 How does this look? This button will take you to Facebook.
-                 <br>
-                 <br>
-                 <a href = "https://www.facebook.com/" class = "button1"><span> Click me!</span> </a>
-                    </div>
+            <div align="center" class="alef" id="sliderdiv" style="padding:0px; width: 100%;  overflow-x: hide;" onmouseover="clearTimeout(taime);" onmouseout="resettime();">
+                <div style="background-color: rgba(0, 0, 0, 0); width: inherit; height: 100%; margin: 0px; display: inline-block;">
+                    <button class="switchimageleft" type="button" onclick="slide(0)" id="sliderdivl">&#129120;</button>
+                    <button class="switchimageright" type="button" onclick="slide(1)" id="sliderdiv2">&#129122;</button>
                 </div>
                 <!-- <a class="totop" id="topbut" onclick="scrollUp()"><span>&#129129;</span> </a> -->
+            </div>
+            <div class="gallerybox">
+                <div class="galleryimg imone" id = "s1" style = "border: 5px solid #22beee;"></div>
+                <div class="galleryimg imtwo" id = "s2"></div>
+                <div class="galleryimg imthree" id = "s3"></div>
+                <div class="galleryimg imfour" id = "s4"></div>                
             </div>
         </div>
     </div>
